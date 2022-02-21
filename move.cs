@@ -14,7 +14,7 @@ public class move1 : MonoBehaviour
         Move();
         if(p2==false)
         {
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene("scene2");
         }
     }
 
