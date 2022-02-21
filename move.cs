@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class move1 : MonoBehaviour
+public class move : MonoBehaviour
 {
     public Rigidbody2D Pl;
     public float speed;
@@ -14,7 +14,7 @@ public class move1 : MonoBehaviour
         Move();
         if(p2==false)
         {
-            SceneManager.LoadScene("scene2");
+            SceneManager.LoadScene("");
         }
     }
 
